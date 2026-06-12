@@ -1,0 +1,11 @@
+# 검증 환경 (conda env: dinov2)
+#   torch          2.7.1+cu118
+#   torchvision    0.22.1+cu118
+#   timm           1.0.26
+#   numpy          1.26.4
+
+torch>=2.0
+torchvision>=0.15
+timm>=1.0           # 0.3.2 대신 1.0.x 호환 패치 적용됨 (아래 README 참고)
+numpy>=1.24
+tqdm>=4.64
