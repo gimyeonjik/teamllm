@@ -50,6 +50,10 @@ reported across three pre-training seeds:
 
 ## Installation
 ```
+conda create -n mae python=3.10 -y
+
+conda activate mae
+
 git clone https://github.com/gimyeonjik/teamllm.git
 
 cd teamllm
