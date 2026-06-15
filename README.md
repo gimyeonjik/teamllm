@@ -4,7 +4,7 @@ This repository contains the self-supervised-learning challenge submission for
 We pre-train a Masked Autoencoder (MAE, ViT-B) on the STL-10 unlabeled split
 (100k images) entirely from scratch, then evaluate the frozen encoder with the
 course's fixed linear-probing protocol on STL-10 and CIFAR-10, under the strict
-compute budget of a single NVIDIA RTX 4080 (24GB) GPU and a wall-clock training
+compute budget of a single NVIDIA RTX 4090 (32GB) GPU and a wall-clock training
 time of approximately 72 hours per run.
 
 The pipeline has three stages: (1) MAE pre-training on STL-10 unlabeled,
