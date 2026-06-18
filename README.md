@@ -69,7 +69,7 @@ python3 -c "import torchvision.datasets as d; d.STL10('./data', split='unlabeled
 ## Train
 ```
 # Stage 1: MAE pre-training on STL-10 unlabeled (100k). Set the seed you want to N.
-python3 train.py --seed {N} --epochs 900 --batch_size 64 --data_path ./data --output_dir ./checkpoints/seed{N}
+python3 train.py --seed {N} --epochs 1200 --batch_size 64 --accum_iter 64 --data_path ./data --output_dir ./checkpoints/seed{N}
 ```
 
 ## Feature Extraction
